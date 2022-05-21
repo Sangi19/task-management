@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Task Manager</title>
 <link href="main.css" rel="stylesheet">
 </head>
 
 <body>
 
 <div id="container">
-        <div id="inputs">
-
+        <h3 style="text-align:center">Task Manager</h3>
+        <div id="inputs" style="text-align:center">
+            <div>Task name
+                <input placeholder="Name of the task">
+            </div><br>
+            <div>assign to
+                <input placeholder="Assign to" type="text">
+            </div><br>
+            <div>Estimated time
+                <input placeholder="ETA">
+            </div><br>
+            <div>
+                <button>save</button>
+            </div><br>
         </div>
 
-        <div class="grid-container">
+        <div class="grid-container" id="task-table" style="text-align:center;">
             <div>task</div>
             <div>assigned to</div>
             <div>TAT</div>
